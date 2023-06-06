@@ -2,7 +2,8 @@
 
 ### Main goal of the project 
 
-In this project, our goal was to create an agency website with a strong focus on accessibility. The main requirements of the site were centered around utilizing semantic HTML to enhance accessibility, ensuring optimal readability for screen readers, and achieving sufficient color contrast in the UI to ensure comfortable perception for all users. To ensure compliance with accessibility standards, we utilized a variety of tools to thoroughly assess our website's accessibility criteria.
+In this [project](https://cazanelena.github.io/agency-website/), our goal was to create an agency website with a strong focus on accessibility. The main requirements of the site were centered around utilizing semantic HTML to enhance accessibility, ensuring optimal readability for screen readers, and achieving sufficient color contrast in the UI to ensure comfortable perception for all users. To ensure compliance with accessibility standards, we utilized a variety of tools to thoroughly assess our website's accessibility criteria.
+[Here](https://github.com/cazanelena/agency-website) is the GitHub repo.  
 
 
 ## 1. Structure a site using semantic HTML to aid accessibility
