@@ -9,7 +9,7 @@ In this project, our goal was to create an agency website with a strong focus on
 
 Using semantic HTML to structure your site not only aids accessibility by improving the experience for screen readers and users with disabilities but also enhances SEO, provides consistent styling and behavior, future-proofs your website, and expands your audience reach. It is an essential practice for creating accessible and well-optimized web content.
 
-```
+```html
     <nav>
       <ul id="navList" class="row justify-end">
         <li>
@@ -24,7 +24,7 @@ The code snippet above uses <nav> elements that we used to create a nav bar. Scr
   
 ## 2. Ensure a web page is readable for screen readers
   
-  ```
+  ```html
   <img src="Images/teamwork.png" alt="teamwork image" /> // Tells the user what the image contains 
         <h3>Collaborate with us</h3>
   ```
@@ -39,20 +39,62 @@ There are numerous tools available to assist you in selecting the perfect color 
   For this project we used lighthouse. This is an open-source tool developed by Google that can audit web pages for performance, accessibility, SEO, and more. It is available as a feature in the Chrome DevTools or as a browser extension. 
     
 ![](learnings/accessibility1.png)
-    ![](learnings/accessibility2.png)
-    ![](learnings/accessibility3.png)
+![](learnings/accessibility2.png)
+![](learnings/accessibility3.png)
 
 ## 5. Use CSS media queries to ensure our content is always presented effectively on screens of different sizes
-  We made a good use of the flexbox and this help us in making sure the website was 
+  
+We made effective use of flexbox, leveraging its capabilities to ensure our website's responsiveness across various devices. In addition, we incorporated media queries to further enhance the adaptability of our design. By employing these techniques, we were able to create a visually appealing and user-friendly experience that seamlessly adjusts to different screen sizes and orientations.
+    
+```css
+@media screen and (max-width: 1024px) {
 
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .change-bg{
+    overflow-x: hidden;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    }
+}
+``` 
+    
 ## 6. Demonstrate a mobile-first approach to building a website
+    Responsive design: We implemented responsive design techniques using CSS media queries. Started by designing and styling the mobile layout first, ensuring that the site looks and functions well on smaller screens. Gradually add breakpoints and adjust the layout for larger screen sizes, such as tablets and desktops.
 
-## 7. Use CSS variables to apply repeated colours to HTML elements
+Progressive enhancement: We employed progressive enhancement to ensure that essential content and functionality are available on all devices. Started with a solid foundation of HTML and CSS that worked across all platforms and progressively enhanced the experience by adding more advanced features for larger screens.
 
-## 8. Use CSS Flexbox to style children in a single-direction layout (ie a row or a column)
+Viewport meta tag: We included the viewport meta tag in the <head> section of your HTML document. This tag helps ensure that the website adapts to the device's screen size and sets the initial scale appropriately for mobile devices.
 
-## 9. Use CSS Grid to style children in two-direction layout
+```html
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <title>Agency website</title>
+```
+     
 
-## 10. Ensure our Git commit history tells a coherent story
 
-## 11. Use the appropriate input types in HTML forms for gathering different types of information
+## 7. Use CSS Flexbox to style children in a single-direction layout (ie a row or a column)
+
+## 8. Use CSS Grid to style children in two-direction layout
+
+## 9. Ensure our Git commit history tells a coherent story
+
+## 10. Use the appropriate input types in HTML forms for gathering different types of information
