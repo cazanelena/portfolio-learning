@@ -70,7 +70,8 @@ We made effective use of flexbox, leveraging its capabilities to ensure our webs
 ``` 
     
 ## 6. Demonstrate a mobile-first approach to building a website
-    Responsive design: We implemented responsive design techniques using CSS media queries. Started by designing and styling the mobile layout first, ensuring that the site looks and functions well on smaller screens. Gradually add breakpoints and adjust the layout for larger screen sizes, such as tablets and desktops.
+    
+Responsive design: We implemented responsive design techniques using CSS media queries. Started by designing and styling the mobile layout first, ensuring that the site looks and functions well on smaller screens. Gradually add breakpoints and adjust the layout for larger screen sizes, such as tablets and desktops.
 
 Progressive enhancement: We employed progressive enhancement to ensure that essential content and functionality are available on all devices. Started with a solid foundation of HTML and CSS that worked across all platforms and progressively enhanced the experience by adding more advanced features for larger screens.
 
