@@ -92,9 +92,35 @@ Viewport meta tag: We included the viewport meta tag in the <head> section of yo
 
 
 ## 7. Use CSS Flexbox to style children in a single-direction layout (ie a row or a column)
+```css
+      
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  align-items: center;
+}
 
-## 8. Use CSS Grid to style children in two-direction layout
+.stretch {
+  align-items: stretch;
+}
 
-## 9. Ensure our Git commit history tells a coherent story
+.col {
+  display: flex;
+  flex-direction: column;
+}
 
-## 10. Use the appropriate input types in HTML forms for gathering different types of information
+.justify-end {
+    justify-content: flex-end;
+}
+```
+CSS Flexbox is a powerful layout module that provides a flexible way to arrange and align elements within a container such as a rows and columns. It offers a simple and intuitive approach to building responsive and dynamic layouts.
+      
+
+## 8. Ensure our Git commit history tells a coherent story
+      
+Maintaining a coherent Git commit history is essential for effective collaboration and project management. 
+We made sure the commit messages were clear and descriptive that succinctly summarize the changes made in the commit. The commit should have a meaningful message that provided context and explained the purpose of the changes.
+
+
+## 9. Use the appropriate input types in HTML forms for gathering different types of information
