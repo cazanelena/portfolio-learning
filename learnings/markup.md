@@ -33,7 +33,7 @@ Providing Alternative Text for Images: We added descriptive alternative text (al
 
 ## 3. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
   
-There are numerous tools available to assist you in selecting the perfect color scheme for your website. After establishing a solid structure for our site, we utilized a reliable color generator, such as [Coolors](https://coolors.co/), to ensure a well-balanced contrast. This allowed us to fine-tune our color choices and achieve an appealing visual harmony on our web pages.
+There are numerous tools available to assist you in selecting the perfect color scheme for your website. After establishing a solid structure for our site, we utilized a reliable color generator, such as [Colors](https://coolors.co/), to ensure a well-balanced contrast. This allowed us to fine-tune our color choices and achieve an appealing visual harmony on our web pages.
   
 ## 4. Use various tools to check that our website meets accessibility criteria
 
