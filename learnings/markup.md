@@ -37,7 +37,8 @@ There are numerous tools available to assist you in selecting the perfect color 
 ## 4. Use various tools to check that our website meets accessibility criteria
 
   For this project we used lighthouse. This is an open-source tool developed by Google that can audit web pages for performance, accessibility, SEO, and more. It is available as a feature in the Chrome DevTools or as a browser extension. 
-    ![](learnings/accessibility1.png)
+    
+![](learnings/accessibility1.png)
     ![](learnings/accessibility2.png)
     ![](learnings/accessibility3.png)
 
