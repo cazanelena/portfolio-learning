@@ -21,7 +21,7 @@ Using semantic HTML to structure your site not only aids accessibility by improv
         </li>
       </ul>
 ```
-The code snippet above uses <nav> elements that we used to create a nav bar. Screen readers rely on HTML semantics to understand and convey the content of a web page to users with visual impairments. By using semantic HTML elements such as <header>, <nav>, <main>, <section>, <article>, and <footer>, you provide a clear structure and meaning to the content, enabling screen readers to navigate and present the information accurately.
+The code snippet above uses <nav> elements that we used to create a nav bar. Screen readers rely on HTML semantics to understand and convey the content of a web page to users with visual impairments. By using semantic HTML elements such as ```<header>, <nav>, <main>, <section>, <article>, and <footer>```, you provide a clear structure and meaning to the content, enabling screen readers to navigate and present the information accurately.
   
 ## 2. Ensure a web page is readable for screen readers
   
